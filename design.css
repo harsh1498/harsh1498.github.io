@@ -116,5 +116,8 @@ th{
 	width:20%;
 	float:right;
 }
+div{
+	display:inline-block;
+}
 	
 
