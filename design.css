@@ -106,6 +106,8 @@ font-family:garamond,sans-serif;
 .dropdown:hover .dropdown-content {
     display: block;
 }
-	
+h1{
+	display:inline;
+}	
 	
 
