@@ -28,7 +28,7 @@ border:5px solid rgba(5,5,5,0.4);
 margin-top:85px;
 
 }
-table,tr,th{
+tr,th{
 	 border: 3px solid rgba(25, 181, 254,0.1);
     border-collapse: collapse;
 }
