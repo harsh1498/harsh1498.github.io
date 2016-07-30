@@ -108,6 +108,9 @@ font-family:garamond,sans-serif;
 }
 h1{
 	display:inline;
-}	
+}
+th{
+	display:inline-block;width:200;height:200;
+}
 	
 
