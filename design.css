@@ -112,5 +112,9 @@ h1{
 th{
 	display:inline-block;width:200;height:200;
 }
+.social{
+	width:75%;
+	float:right;
+}
 	
 
