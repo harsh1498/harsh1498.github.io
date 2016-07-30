@@ -1,0 +1,111 @@
+.container{
+	background-size:cover;
+	display:inline;
+}
+.ul{
+	position: fixed;
+    top: 0px;
+    width: 99.15%;
+	background-color:rgb(15,15,15);
+	color:white;
+	font-family:garamond,sans-serif;
+	font-size:125%;
+	
+	
+}
+
+
+.title {
+font-size:300%;	
+font-family:garamond,sans-serif;
+color:rgba(236,236,236,0.8) ;
+background-image: url('http://www.fsinspection.com/wp-content/uploads/2015/01/blue-circuit-board.jpg');
+background-size:cover;
+text-align:center;
+padding:150px;
+background-position:center top;
+border:5px solid rgba(5,5,5,0.4);
+margin-top:85px;
+
+}
+table,tr,th{
+	 border: 3px solid rgba(25, 181, 254,0.1);
+    border-collapse: collapse;
+}
+.about{
+font-size:150%;
+text-align:center;
+padding:20px;
+margin-top:5px;
+margin-right: 50px;
+color:rgba(236,236,236,0.8) ;	
+float:left;
+display:block;
+width: 800px;
+line-height:250%;
+}
+.images{
+font-size:150%;
+text-align:center;
+margin-top:30px;
+margin-right: 50px;	
+float:right;
+margin-bottom:20px;
+
+}
+.abot{
+font-size:75%;	
+text-align:center;
+padding:40px;
+color:rgba(236,236,236,0.8);	
+display:block;
+line-height:250%;	
+font-family:garamond,sans-serif;
+}
+
+.post{
+	color:rgba(236,236,236,0.8);
+	text-align:center;
+	font-family:garamond,sans-serif;
+	font-size:120%;
+	line-height:200%;
+	padding:50px;
+	width:500px;
+	display:inline;
+	float:left;
+	
+}
+	.learns{
+	color:rgba(236,236,236,0.8);
+	text-align:center;
+	font-family:garamond,sans-serif;
+	font-size:120%;
+	line-height:200%;
+	padding:40px;
+	width:1000px;
+	float:right;
+	margin-right:110px;
+	
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+	background-color:rgb(29,29,29);
+	
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+	
+	
+
