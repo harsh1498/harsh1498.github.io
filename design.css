@@ -36,7 +36,7 @@ border-radius:1% 0%;
 
 }
 tr,th{
-	 border: 3px solid rgba(25, 181, 254,0.1);
+	 border: 3px solid rgba(25, 181, 254,0.2);
     border-collapse: collapse;
 }
 .about{
