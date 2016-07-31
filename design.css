@@ -22,7 +22,7 @@ border-radius:50%;
  -webkit-animation: spin 1.5s infinite; /* Chrome, Opera 15+, Safari 5+ */
           animation: spin 1.5s infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
 }
-}
+
 .loadr:before{
 	content:"";
 	position:absolute;
@@ -36,7 +36,7 @@ border-radius:50%;
  -webkit-animation: spin 1.5s infinite; /* Chrome, Opera 15+, Safari 5+ */
           animation: spin 1.5s infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
 }
-}
+
 .loadr:after{
 	content:"";
 	position:absolute;
