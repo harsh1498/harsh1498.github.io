@@ -80,7 +80,12 @@ border-radius:50%;
           transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
   }
 }
-
+.loaded.loadr{
+	opacity:0;
+}
+.loaded.loadingp{
+	visibility:hidden;
+}
 
 .container{
 	background-size:cover;
