@@ -31,7 +31,7 @@
 	height:100%;
 	background-color:black;
 	z-index:1000;
-	position:relative;
+	position:fixed;
 }
 #loader{
 	position: absolute;
