@@ -24,24 +24,17 @@
   text-align: center;
 }
 
-.loader{
-	display:block;
-position:relative;
-background-color:black;
-left:50%;
-top:50%;
-width:150px;
-height:150px;
-margin:-75px 0 0 -75px;
-}
+
 #loader{
+	position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
 display:block;
 background-color:black;
-left:50%;
-top:50%;
-width:150px;
-height:150px;
-margin:-75px 0 0 -75px;
 border:3px solid transparent;
 border-top-color:rgba(25, 181, 254,0.2);
 border-radius:50%;
