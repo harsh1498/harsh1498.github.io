@@ -84,9 +84,9 @@ padding-bottom:0px;
 	font-size:120%;
 	line-height:200%;
 	padding:40px;
-	width:1000px;
-	float:right;
-	margin-right:110px;
+	width:50%px;
+	display:inline-block;
+	margin-left:110px;
 	
 }
 .dropdown {
