@@ -18,6 +18,7 @@ height:150px;
 margin:-75px 0 0 -75px;
 border:3px solid transparent;
 border-top-color:rgba(25, 181, 254,0.2);
+border-radius:50%;
 }
 .loadr:before{
 	content:"";
@@ -28,6 +29,7 @@ border-top-color:rgba(25, 181, 254,0.2);
 	bottom:5px;
 	border:3px solid transparent;
 border-top-color:red;
+border-radius:50%;
 }
 .loadr:after{
 	content:"";
@@ -38,6 +40,7 @@ border-top-color:red;
 	bottom:15px;
 border:3px solid transparent;
 border-top-color:rgba(236,236,236,0.8);
+border-radius:50%;
 }
 }
 .container{
