@@ -16,7 +16,8 @@ top:50%;
 width:150px;
 height:150px;
 margin:-75px 0 0 -75px;
-border:3px solid rgba(25, 181, 254,0.2);
+border:3px solid transparent;
+border-top-color:rgba(25, 181, 254,0.2);
 }
 .loadr:before{
 	content:"";
@@ -25,7 +26,8 @@ border:3px solid rgba(25, 181, 254,0.2);
 	left:5px;
 	right:5px;
 	bottom:5px;
-	border:3px solid red;
+	border:3px solid transparent;
+border-top-color:red;
 }
 .loadr:after{
 	content:"";
@@ -34,7 +36,8 @@ border:3px solid rgba(25, 181, 254,0.2);
 	left:15px;
 	right:15px;
 	bottom:15px;
-	border:3px solid rgba(236,236,236,0.8);
+border:3px solid transparent;
+border-top-color:rgba(236,236,236,0.8);
 }
 }
 .container{
