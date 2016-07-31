@@ -80,17 +80,7 @@ border-radius:50%;
           transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
   }
 }
-loadingp.loader-section{
-	
-	position:fixed;
-	top:0;
-	width:51%;
-	height:100%;
-	background-color:#222;
-	z-index:1000;
-}
-loadingp.loader-section.section-left{left:0;}
-loadingp.loader-section.section-right{right:0;}
+
 
 .container{
 	background-size:cover;
