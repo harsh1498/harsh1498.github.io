@@ -16,7 +16,7 @@ top:50%;
 width:150px;
 height:150px;
 margin:-75px 0 0 -75px;
-border:3px solid lightblue;
+border:3px solid rgba(25, 181, 254,0.2);
 }
 .loadr:before{
 	content:"";
@@ -26,6 +26,15 @@ border:3px solid lightblue;
 	right:5px;
 	bottom:5px;
 	border:3px solid red;
+}
+.loadr:after{
+	content:"";
+	position:absolute;
+	top:15px;
+	left:15px;
+	right:15px;
+	bottom:15px;
+	border:3px solid rgba(236,236,236,0.8;
 }
 }
 .container{
