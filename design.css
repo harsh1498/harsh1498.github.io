@@ -27,7 +27,7 @@
 
 #loader{
 display:block;
-position:relative;
+position:fixed;
 background-color:black;
 left:50%;
 top:100%;
