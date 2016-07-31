@@ -115,6 +115,13 @@ th{
 .social{
 	width:20%;
 	float:right;
+	position: fixed;
+    vertical-align:bottom;
+    width: 100%;
+	background-color:rgb(15,15,15);
+	color:white;
+	font-family:garamond,sans-serif;
+	font-size:125%;
 }
 table{
 	width:100%;
