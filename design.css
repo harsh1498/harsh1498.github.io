@@ -31,8 +31,8 @@ border-radius:50%;
 	right:5px;
 	bottom:5px;
 	border:3px solid transparent;
-border-top-color:red;
-border-radius:50%;
+       border-top-color:red;
+       border-radius:50%;
  -webkit-animation: spin 1.5s infinite; /* Chrome, Opera 15+, Safari 5+ */
           animation: spin 1.5s infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
 }
@@ -47,8 +47,8 @@ border-radius:50%;
 border:3px solid transparent;
 border-top-color:rgba(236,236,236,0.8);
 border-radius:50%;
- -webkit-animation: spin 1.5s infinite; /* Chrome, Opera 15+, Safari 5+ */
-          animation: spin 1.5s infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+ -webkit-animation: spin 1.5s infinite; 
+          animation: spin 1.5s infinite; 
 }
 @-webkit-keyframes spin {
   0%   { 
