@@ -226,7 +226,7 @@ padding-bottom:0px;
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
-    position: fixed;
+    position: absolute;
     background-color: rgb(29,29,29);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
