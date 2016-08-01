@@ -122,6 +122,7 @@ border-radius:50%;
 	font-family:garamond,sans-serif;
 	font-size:125%;
 	width:100%;
+	z-index:1000;
 	
 	
 }
