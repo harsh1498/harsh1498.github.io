@@ -119,7 +119,7 @@ border-radius:50%;
         top: 0px;
 	background-color:rgb(15,15,15);
 	color:white;
-	font-family:garamond,sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	font-size:125%;
 	z-index:1000;
 	left:0;
@@ -135,7 +135,7 @@ border-radius:50%;
 
 .title {
 font-size:300%;	
-font-family:garamond,sans-serif;
+font-family: 'Ubuntu', sans-serif;
 color:rgba(236,236,236,0.8) ;
 background-image: url('http://www.fsinspection.com/wp-content/uploads/2015/01/blue-circuit-board.jpg');
 background-size:cover;
@@ -160,7 +160,7 @@ color:rgba(236,236,236,0.8) ;
 display:inline-block;
 width:97.5%;
 line-height:250%;
-font-family:roboto-slab;
+font-family: 'Ubuntu', sans-serif;
 
 }
 .images{
@@ -178,33 +178,10 @@ text-align:center;
 padding:40px;
 display:block;
 line-height:250%;	
-font-family:garamond,sans-serif;
+font-family: 'Ubuntu', sans-serif;
 padding-bottom:0px;
 }
 
-.post{
-	color:rgba(236,236,236,0.8);
-	text-align:center;
-	font-family:garamond,sans-serif;
-	font-size:120%;
-	line-height:200%;
-	padding:50px;
-	width:500px;
-	display:inline;
-	float:left;
-	
-}
-	.learns{
-	color:rgba(236,236,236,0.8);
-	text-align:center;
-	font-family:garamond,sans-serif;
-	font-size:120%;
-	line-height:200%;
-
-	width:50%px;
-	display:inline-block;
-	
-}
 .dropbtn {
     background-color: transparent;
     color: white;
@@ -237,6 +214,7 @@ padding-bottom:0px;
     min-width: 160px;
     box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
     margin-right:11%;
+    
 }
 
 /* Links inside the dropdown */
@@ -245,6 +223,7 @@ padding-bottom:0px;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /* Change color of dropdown links on hover */
