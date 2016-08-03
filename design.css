@@ -60,7 +60,7 @@ border-radius:50%;
 	right:5px;
 	bottom:5px;
 	border:2px solid transparent;
-       border-top-color:rgba(150, 40, 27,0.9);
+       border-top-color:rgba(236,236,236,0.8);
        border-radius:50%;
  -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
           animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
@@ -74,7 +74,7 @@ border-radius:50%;
 	right:15px;
 	bottom:15px;
 border:2px solid transparent;
-border-top-color:rgba(236,236,236,0.8);
+border-top-color:rgba(25, 181, 254,0.8);
 border-radius:50%;
  -webkit-animation: spin 1.5s linear infinite; 
           animation: spin 1.5s linear infinite; 
