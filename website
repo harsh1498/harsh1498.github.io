@@ -1,1 +1,171 @@
-
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="DesignCompany1.css">
+		<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+		<title>
+			Company Name
+		</title>
+	</head>
+	<div class="Nav-Bar">
+		<h1 class="Menu">
+			Menu
+		</h1>
+			<ul class="Nav-ul">
+				
+				<li class="Nav-List">
+					<a href="#Home">
+						Home
+					</a>
+				</li>
+				
+				<li class="Nav-List">
+					<a href="#About">
+						About Us
+					</a>
+				</li>
+				
+				<li class="Nav-List">
+					<a href="#Services">
+						Services
+					</a>
+				</li>
+				
+				<li class="Nav-List">
+					<a href="#Contact Us">
+						Contact Us
+					</a>
+				</li>
+			</ul>
+		</div>
+	<body>
+		
+		
+		<a name="Home">
+		<div class="Header">
+			<h1 class="Header-Text">
+				Comapany Name
+			</h1>
+		</div>
+		</a>
+		
+		<a name="About">
+		<div class="About-Header">
+		</a>	
+			<h2>
+				About Us
+			</h2>
+			
+			<div class="About-Header-Content">
+				
+				<table class="Employees-Table">
+					<tr>
+						<td>
+							<img src="http://d33v4339jhl8k0.cloudfront.net/docs/assets/528e78fee4b0865bc066be5a/images/52af1e8ce4b074ab9e98f0e0/file-mxuiNezRS5.jpg" width="200" height="200" style="border-radius:100%;" >
+							<p class="Employee-Name">
+								Employee Name
+							<p>
+						</td>
+						
+						<td>
+							<img src="http://d33v4339jhl8k0.cloudfront.net/docs/assets/528e78fee4b0865bc066be5a/images/52af1e8ce4b074ab9e98f0e0/file-mxuiNezRS5.jpg" width="200" height="200" style="border-radius:100%;" >
+							<p class="Employee-Name">
+								Employee Name
+							<p>
+						</td>
+						
+						<td>
+							<img src="http://d33v4339jhl8k0.cloudfront.net/docs/assets/528e78fee4b0865bc066be5a/images/52af1e8ce4b074ab9e98f0e0/file-mxuiNezRS5.jpg" width="200" height="200" style="border-radius:100%;" >
+							<p class="Employee-Name">
+								Employee Name
+							<p>
+						</td>
+						
+						<td>
+							<img src="http://d33v4339jhl8k0.cloudfront.net/docs/assets/528e78fee4b0865bc066be5a/images/52af1e8ce4b074ab9e98f0e0/file-mxuiNezRS5.jpg" width="200" height="200" style="border-radius:100%;" >
+							<p class="Employee-Name">
+								Employee Name
+							<p>
+						</td>
+						
+						<td>
+							<img src="http://d33v4339jhl8k0.cloudfront.net/docs/assets/528e78fee4b0865bc066be5a/images/52af1e8ce4b074ab9e98f0e0/file-mxuiNezRS5.jpg" width="200" height="200" style="border-radius:100%;" >
+							<p class="Employee-Name">
+								Employee Name
+							<p>
+						</td>
+						
+						<td>
+							<img src="http://d33v4339jhl8k0.cloudfront.net/docs/assets/528e78fee4b0865bc066be5a/images/52af1e8ce4b074ab9e98f0e0/file-mxuiNezRS5.jpg" width="200" height="200" style="border-radius:100%;" >
+							<p class="Employee-Name">
+								Employee Name
+							<p>
+						</td>
+					</tr>
+				</table>
+				
+				<p>
+					Have a cool story about how your product or service was helps change lives? 
+					Put it on your 'About Us' page. Good stories humanize your brand and provide context 
+					and meaning for your product. What’s more, good stories are sticky -- which means people
+					 are more likely to connect with them and pass them on.
+					Yellow Leaf Hammocks does an amazing job of telling you about its product by describing how 
+					the hammocks empower artisan weavers and their families. The company uses a combination of 
+					words and easily digestible graphics to paint a picture, rather than using big chunks of text.
+					 They're clear about why they're different: "Not a Charity," the page reads. And then: 
+					 "This is the basis for a brighter future, built on a hand up, not a handout."
+				 
+				</p>
+			</div>
+		</div>
+		         
+		
+		<a name="Services">
+		<div class="Services-Header">
+		</a>	
+			<h2>
+				Services
+			</h2>
+			
+			<div class="Services-Header-Content">
+				<table style="width:100%;">
+					<tr>
+						<th class="Services-Icons">
+							<img src="http://image.flaticon.com/icons/png/512/181/181316.png" width="150" height="150"/>
+							<h5>24/7 Room Service</h5>
+						</th>
+						
+						<th class="Services-Icons">
+							<img src="http://image.flaticon.com/icons/png/512/181/181299.png" width="150" height="150"/>
+							<h5>Free Wifi</h5>
+						</th>
+						
+						<th class="Services-Icons">
+							<img src="http://image.flaticon.com/icons/png/512/181/181319.png" width="150" height="150"/>
+							<h5>Free Car Service</h5>
+						</th>
+						
+						<th class="Services-Icons">
+							<img src="http://image.flaticon.com/icons/png/512/181/181311.png" width="150" height="150"/>
+							<h5>24/7 Pool & Gym Access</h5>
+						</th>
+					</tr>
+				</table>
+			</div>
+		</div>
+		
+		
+		<a name="Contact Us">
+		<div class="Contact-Us-Header">
+			
+			<h2>
+				Contact Us
+			</h2>
+			
+			<div class="Contact-Us-Header-Content">
+				<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSczBjLri0FrA3EnqzG_TS5jd57SsbkGQGsgZK_kTWeREE77VA/viewform?embedded=true" width="1000" height="1140" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+			</div>
+		</div>
+		</a>
+	</body>
+</html>
