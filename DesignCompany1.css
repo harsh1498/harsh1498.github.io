@@ -1,4 +1,4 @@
-@media only screen and (max-width: 965px) {
+@media only screen and (max-width: 500px) {
     .Nav-Bar
 {
 	background-color:rgba(310,310,310,0.4);
@@ -10,6 +10,7 @@
 	border:20px solid rgba(31,31,31,0.8);
 	border-right:0px solid transparent;
 	border-radius:50px;
+	width:1000px;
 }
     
 }
@@ -24,7 +25,7 @@
 	border:20px solid rgba(31,31,31,0.8);
 	border-right:0px solid transparent;
 	border-radius:50px;
-	width:500px;
+	width:100px;
 }
 .Menu
 {
