@@ -11,22 +11,9 @@
 	border:20px solid rgba(31,31,31,0.8);
 	border-right:0px solid transparent;
 	border-radius:50px;
-	width:100px;
+	width:7.45%;
 }
-@media only screen and (max-width: 500px) {
-    .Nav-Bar
-{
-	background-color:rgba(310,310,310,0.4);
-	color:rgb(31,31,31);
-	vertical-align:top;
-	padding:1%;
-	padding-bottom:5.75%;
-	position:fixed;
-	border:20px solid rgba(31,31,31,0.8);
-	border-right:0px solid transparent;
-	border-radius:50px;
-        width:5%;
-}
+
     
 }
 .Menu
