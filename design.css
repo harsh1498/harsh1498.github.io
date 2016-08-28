@@ -310,5 +310,6 @@ table{
 
 .img1:hover .dropdown-img {
 	display:absolute;
+	z-index:1000px;
 } 	
 
