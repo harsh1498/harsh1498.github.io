@@ -307,5 +307,8 @@ table{
 {
 	display:none;
 }
-	
+
+.img1:hover .dropdown-img {
+	display:block;
+} 	
 
