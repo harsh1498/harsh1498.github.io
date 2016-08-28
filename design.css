@@ -309,7 +309,7 @@ table{
 }
 
 .img1:hover .dropdown-img {
-	display:absolute;
+	display:block;
 	z-index:1000px;
 } 	
 
