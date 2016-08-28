@@ -309,6 +309,6 @@ table{
 }
 
 .img1:hover .dropdown-img {
-	display:block;
+	display:fixed;
 } 	
 
