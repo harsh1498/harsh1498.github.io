@@ -1,0 +1,16 @@
+<DOCTYPE>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="hack.css"
+<title>
+Find a Team
+</title>
+</head>
+<body>
+<div class="header">
+<a href="#">
+<img src="">
+</a>
+</div>
+</body>
+</html>
