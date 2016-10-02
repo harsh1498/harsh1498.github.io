@@ -1,0 +1,92 @@
+.header
+{
+	background-image:url('http://www.qqxxzx.com/images/keyboard-wallpaper/keyboard-wallpaper-23.jpg');
+	width:95%;
+	height:450px;
+	background-size:cover;
+	color:rgba(236,236,236,0.8);
+	text-align:center;
+	border:10px solid rgba(180,180,180,0.5);
+	margin-left:2%;
+	border-radius:0px 0px 40px 40px;
+}
+.head_title
+{
+	margin:15%;
+	font-size:500%;
+	margin-top:10%;
+}
+.anno
+{
+	text-align:center;
+	width:40%;
+	display:inline-block;
+	float:left;
+	padding:2%;
+	margin:3%;
+}
+.CCD
+{
+	width:40%;
+	float:right;
+	text-align:center;
+	padding:2%;
+	margin:3%;
+	display:block;
+	margin-bottom:0%;
+	padding-bottom:0%;
+}
+.nav
+{
+	margin-left:2%;
+	padding:1%;
+	position:fixed;
+	color:white;
+	width:93.9%;
+	background-color:rgba(180,180,180,0.8);
+	text-align:center;
+	border-left:2px solid purple;
+	border-top:2px solid purple;
+	border-radius:50px 50px 0px 0px;
+
+}
+.nav_buttons
+{
+	text-align:center;
+}
+.tabl
+{
+	width:100%;
+}
+.footer
+{
+	position:relative;
+}
+.notes
+{
+	text-align:center;
+}
+body
+{
+	
+	margin:0;
+	font-family: 'Poppins', sans-serif;
+	background-color:rgba(244, 240, 236,1.0);
+	background-image:url('https://wallpaperscraft.com/image/white_background_dents_bumps_texture_69592_1920x1080.jpg');
+	
+}
+
+a
+{
+	color:white;
+}
+html{
+	border-right:2px solid purple;
+	border-bottom:2px solid purple;
+}
+.links
+{
+	color:purple;
+	text-decoration:none;
+	
+}
