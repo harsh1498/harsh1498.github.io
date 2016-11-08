@@ -45,12 +45,12 @@
 	padding:1%;
 	position:fixed;
 	color:white;
-	width:93.9%;
+	width:94%;
 	background-color:rgba(180,180,180,0.8);
 	text-align:center;
 	border-left:2px solid purple;
 	border-top:2px solid purple;
-	border-radius:50px 50px 0px 0px;
+	border-radius:40px 40px 0px 0px;
 
 }
 .nav_buttons
