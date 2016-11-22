@@ -32,7 +32,7 @@
 	position:fixed;
 }
 #loader{
-	position: absolute;
+  position: absolute;
   left: 50%;
   top: 50%;
   z-index: 1;
@@ -40,7 +40,7 @@
   height: 150px;
   margin: -75px 0 0 -75px;
 display:block;
-background-color:black;
+background-color:rgba(290,290,290,0.5);
 border:3px solid transparent;
 border-top-color:rgba(25, 181, 254,0.8);
 border-radius:50%;
