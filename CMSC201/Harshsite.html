@@ -8,7 +8,16 @@ CMSC 201
 <link rel="stylesheet" type="text/css" href="Harshsite.css">
 <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 </head>
-<body>
+
+<body style="background-color:rgb(29,29,29);background-size:cover;overflow-x:hidden;margin-bottom:0;" onload="myFunction()" >
+<div id="loadingp">
+<div id="loader"></div>
+<div>
+<h1 style="color:rgba(236,236,236,0.8);text-align:center;margin-top:35%;">You Are Accessing Harsh Patel's Site, One Moment Please...</h1>
+</div>
+</div>
+<div id="myDiv">
+
 	<div class="nav">
 	<table class="tabl">
 	<tr>
@@ -131,7 +140,18 @@ CMSC 201
 </p>
 </div>
 
-</div>	
+</div>
+</div>
 </body>
+<script>
+var myVar;
+function myFunction() {
+    myVar = setTimeout(showPage, 500);
+}
+function showPage() {
+  document.getElementById("loadingp").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script
 </html>
 	
