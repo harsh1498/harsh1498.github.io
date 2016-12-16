@@ -88,8 +88,7 @@ def check(dict1,user,passworda):
 		return "True"
 
 # def program(user): Shows user file contents and allows for appending
-# Input:             Username, User's Choice to append, and user's content to app\
-end
+# Input:             Username, User's Choice to append, and user's content to app end
 # Output:            Updtated user file
 def program(user):
 
@@ -148,8 +147,7 @@ def main():
         while choice == "y":
             user = input("Please enter the username of a user here : ")
             program(user)
-            choice = input("Would you like to access a another user's file? y/n: \
-")
+            choice = input("Would you like to access a another user's file? y/n: ")
 
     # If password matches the of user, proceeds to run user version of program
     elif bool2 == "True":
