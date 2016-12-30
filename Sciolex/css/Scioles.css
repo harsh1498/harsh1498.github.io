@@ -1,0 +1,36 @@
+.Landing_Page
+{
+	background-image : url('http://cdn.wonderfulengineering.com/wp-content/uploads/2014/07/Hi-Tech-Wallpaper-29.jpg');
+	text-align : center;
+	height : 750px;
+	background-size:cover;
+	color : rgba(360,360,360,0.8);
+	line-height: 200px ;
+	
+}
+.Landing_Page_Content
+{
+	height : 100% ;
+	padding-left : 30%;
+	padding-right : 30%;
+	padding-top : 10%;
+	background-color : rgba(19,19,19,0.70);
+	
+}
+.Nav-List
+{
+	border-top:solid 5px rgba(19,19,19,0.70);
+	border-bottom:solid 4px rgba(19,19,19,0.70);
+	height:100%;
+	padding : 15px
+}
+a:active
+{
+	color : black;	
+}a:hover
+{
+	color : black;	
+}a:visited
+{
+	color : black;	
+}

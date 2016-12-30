@@ -1,0 +1,10 @@
+1.Landing page background pic (http://cdn.wonderfulengineering.com/wp-content/uploads/2014/07/Hi-Tech-Wallpaper-29.jpg)
+2.Page container anime backgroundcolor = 16,16,16,0.68
+3.Unbold fonts
+4.move social to the nav
+5.move logo to the left and to the top inside sticky wrapper
+6.margin top of each page container = 5%
+7.increase margin b/ title and next element on each page
+8.change the business unites page to have title then pic then name, un bold name
+9.change color to a dark brown
+10.change accent color to grey and remove all hints of blue
