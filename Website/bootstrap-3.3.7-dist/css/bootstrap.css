@@ -12,6 +12,12 @@ html {
 body {
   margin: 0;
 }
+.Imagez
+{
+  width:200px;
+  height:200px;
+  border-radius:100%;
+}
 .Imagez:hover
 {
   width:500px;
