@@ -12,6 +12,13 @@ html {
 body {
   margin: 0;
 }
+.ImagezP:hover
+{
+  width:500px;
+  height:500px;
+  border-radius:100px;
+    
+}
 article,
 aside,
 details,
