@@ -28,7 +28,7 @@
   <body style = "text-align:center;line-height:200%;">
     <?php 
 if(isset($_POST['submit'])){
-    $to = "email@example.com"; // this is your Email address
+    $to = "harsh1498@gmail.com"; // this is your Email address
     $from = $_POST['email']; // this is the sender's Email address
     $first_name = $_POST['first_name'];
     $last_name = $_POST['last_name'];
@@ -244,7 +244,13 @@ if(isset($_POST['submit'])){
 			</div>
 		</div>
 	</div>
-
+<form action="" method="post">
+First Name: <input type="text" name="first_name"><br>
+Last Name: <input type="text" name="last_name"><br>
+Email: <input type="text" name="email"><br>
+Message:<br><textarea rows="5" name="message" cols="30"></textarea><br>
+<input type="submit" name="submit" value="Submit">
+</form>
 <div class="container" id="Contact">
 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#ContactForm" style="background-image:none;background-color:rgb(150, 40, 27);border:none;">Contact Me</button>
 
