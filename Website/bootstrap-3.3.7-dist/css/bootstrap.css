@@ -55,6 +55,10 @@ audio:not([controls]) {
 template {
   display: none;
 }
+background-image
+{
+  filter:blur(5px);
+}
 a {
   background-color: transparent;
 }
