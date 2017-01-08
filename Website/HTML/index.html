@@ -22,8 +22,13 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
 <div class="parallax">
-  <body style = "text-align:center;line-height:200%;">
-
+  <body style = "text-align:center;line-height:200%;background-color:rgb(29,29,29);background-size:cover;overflow-x:hidden;margin-bottom:0;" onload="myFunction()">
+<div id="loadingp">
+<div id="loader"></div>
+<div>
+<h1 style="color:rgba(236,236,236,0.8);text-align:center;margin-top:35%;">You Are Accessing Harsh Patel's Site, One Moment Please...</h1>
+</div>
+</div>
     <style>
   
 	.polaroid:hover
@@ -64,10 +69,128 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 }
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom {
+  from{ bottom:-100px; opacity:0 }
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
+
+#loadingp{
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background-color:black;
+	z-index:1500;
+	position:fixed;
+}
+#loader{
+	position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+display:block;
+background-color:black;
+border:3px solid transparent;
+border-top-color:rgba(25, 181, 254,0.8);
+border-radius:50%;
+ -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+          animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+}
+
+#loader:before{
+	content:"";
+	position:absolute;
+	top:5px;
+	left:5px;
+	right:5px;
+	bottom:5px;
+	border:2px solid transparent;
+       border-top-color:rgba(236,236,236,0.8);
+       border-radius:50%;
+ -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+          animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+}
+
+#loader:after{
+	content:"";
+	position:absolute;
+	top:15px;
+	left:15px;
+	right:15px;
+	bottom:15px;
+border:2px solid transparent;
+border-top-color:rgba(25, 181, 254,0.8);
+border-radius:50%;
+ -webkit-animation: spin 1.5s linear infinite; 
+          animation: spin 1.5s linear infinite; 
+}
+@-webkit-keyframes spin {
+  0%   { 
+  		-webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+*/ 
+      -ms-transform: rotate(0deg);  /* IE 9 */
+          transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+  	
+  }
+  
+  100% { 
+  	
+  	-webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+*/ 
+      -ms-transform: rotate(360deg);  /* IE 9 */
+          transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+  }
+}
+@keyframes spin {
+   0%   { 
+  		-webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+*/ 
+      -ms-transform: rotate(0deg);  /* IE 9 */
+          transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+  	
+  }
+  
+  100% { 
+  	
+  	-webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+*/ 
+      -ms-transform: rotate(360deg);  /* IE 9 */
+          transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+  }
+}
 	
 
 
     </style>
+	  <script>
+var myVar;
+function myFunction() {
+    myVar = setTimeout(showPage, 500);
+}
+function showPage() {
+  document.getElementById("loadingp").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+	  <div id="myDiv">
+
 	<!--NavBar-->
 	<nav class = "navbar navbar-default navbar-fixed-top" style = "margin-bottom:0px;box-shadow:17px 1px 17px 1px rgb(0, 0, 0);border-bottom:dashed 2px rgb(150,50,25);">
 		<div class = "container-fluid">
@@ -277,7 +400,7 @@
 		</div>
 	</div>
 	
-				
+	</div>			
 	
   </body>
 </div>
